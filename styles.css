@@ -1,9 +1,70 @@
 body {
     font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+p {
+    text-indent: 10%;
 }
 
 .container {
     display: flex; 
     flex-direction: column;
-    
+    background-color: rgb(203, 205, 206);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: beige;
+    padding: 8px;
+}
+
+.left,
+.right {
+    display: flex;
+    gap: 8px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(17, 17, 24);
+    margin-right: 24px;
+}
+
+.title_page {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.title_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.header img {
+    width:40px;
+    height: auto;
+    min-width: 40px;
+    margin: 30px;
+}
+
+.title_page img {
+    width: 400px;
+    height: auto;
+    margin: 4px;
+}
+
+button {
+    margin: 10px;
+    padding: 6px;
 }
