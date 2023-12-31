@@ -1,10 +1,6 @@
 body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Montserrat Alternates', sans-serif;
     margin: 0;
-}
-
-p {
-    text-indent: 10%;
 }
 
 .container {
@@ -36,7 +32,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: rgb(17, 17, 24);
+    color: white;
     margin-right: 24px;
 }
 
@@ -102,10 +98,11 @@ a {
 .call_action {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     margin: 16px;
     margin-left: 30px;
     margin-right: 30px;
-    padding: 24px;
+    padding: 12px;
     background: rgb(91, 91, 218);
     border-radius: 10px;
 }
@@ -118,4 +115,13 @@ a {
 button {
     margin: 10px;
     padding: 6px;
+    max-height: 36px;
+    width: 128px;
+    min-width: 128px;
+    border-radius: 4px;
+}
+
+.white_filter {
+    filter: brightness(0);
+    filter: invert(1)
 }
